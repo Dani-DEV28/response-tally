@@ -100,6 +100,9 @@ public class Tallyer {
                 ids.remove(i);
                 topics.remove(i);
                 i--;
+            }else if (i == ids.size()-1){
+                i = 0;
+                j--;
             }
         }
 
